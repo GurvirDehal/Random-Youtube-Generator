@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Title"/>
+    <YouTubePicker/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import YouTubePicker from './components/YouTubePicker'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    YouTubePicker
   }
 }
 </script>
